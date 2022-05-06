@@ -1,0 +1,4 @@
+2022-02-23 10:50:48,193 - INFO - allennlp.common.params - random_seed = 13370
+2022-02-23 10:50:48,194 - INFO - allennlp.common.params - numpy_seed = 1337
+2022-02-23 10:50:48,194 - INFO - allennlp.common.params - pytorch_seed = 133
+2022-02-23 10:50:48,204 - INFO - allennlp.common.checks - Pytorch version: 1.9.1+cpu

@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "D:\python37\lib\runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "D:\python37\lib\runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "D:\python37\Scripts\allennlp.exe\__main__.py", line 7, in <module>
+  File "D:\python37\lib\site-packages\allennlp\run.py", line 18, in run
+    main(prog="allennlp")
+  File "D:\python37\lib\site-packages\allennlp\commands\__init__.py", line 102, in main
+    args.func(args)
+  File "D:\python37\lib\site-packages\allennlp\commands\train.py", line 124, in train_model_from_args
+    args.cache_prefix)
+  File "D:\python37\lib\site-packages\allennlp\commands\train.py", line 168, in train_model_from_file
+    cache_directory, cache_prefix)
+  File "D:\python37\lib\site-packages\allennlp\commands\train.py", line 212, in train_model
+    check_for_gpu(cuda_device)
+  File "D:\python37\lib\site-packages\allennlp\common\checks.py", line 81, in check_for_gpu
+    raise ConfigurationError("Experiment specified a GPU but none is available;"
+allennlp.common.checks.ConfigurationError: "Experiment specified a GPU but none is available; if you want to run on CPU use the override 'trainer.cuda_device=-1' in the json config file."
