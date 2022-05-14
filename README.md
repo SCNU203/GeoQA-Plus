@@ -6,8 +6,11 @@ pip install -r requirement.txt
 
 # Train the model
 cd GeoQA+
+
 unzip and rename the dataset
+
 run: allennlp train config/NGS_Aux.json --include-package NGS_Aux -s save/test
 
-#Evaluation
+# Evaluation
+
 run: allennlp evaluate save/test  data/GeoQA3/test.pk --include-package NGS_Aux_test --cuda-device 0
