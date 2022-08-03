@@ -37,7 +37,7 @@ from utils import *
 
 from mcan import *
 import json
-model_name = "data/pretrain/chinese_bert"
+model_name = "data/pretrain/Roberta"
 @Model.register("MyEncoder")
 class Encoder(Model):
     def __init__(self,
