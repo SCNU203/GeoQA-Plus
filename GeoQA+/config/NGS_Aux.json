@@ -9,7 +9,7 @@
         "source_token_indexer": {
           "tokens": {
           "type": "pretrained_transformer",
-          "model_name": "data/pretrain/chinese_bert",
+          "model_name": "data/pretrain/Roberta",
             "do_lowercase": false
                     }
         },
