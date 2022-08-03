@@ -43,7 +43,7 @@ from utils import *
 from mcan import *
 
 # torch.backends.cudnn.enabled = False
-model_name = "data/pretrain/chinese_bert"
+model_name = "data/pretrain/Roberta"
 
 @Model.register("MyEncoder")
 class Encoder(Model):
